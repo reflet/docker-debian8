@@ -19,7 +19,7 @@ $ docker run --rm -it reflet/debian8 bash
 
 ```
 #!sh
-$ git clone git@bitbucket.org:reflet/docker-debian8.git .
+$ git clone https://github.com/reflet/docker-debian8.git .
 $ docker build -t reflet/debian8 .
 $ docker login
 $ docker push reflet/debian8
